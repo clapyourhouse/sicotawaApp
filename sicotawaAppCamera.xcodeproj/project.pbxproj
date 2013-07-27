@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2FEC3DA17A39DD1008AD19C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEC3D917A39DD1008AD19C /* UIKit.framework */; };
+		C2FEC3DC17A39DD1008AD19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEC3DB17A39DD1008AD19C /* Foundation.framework */; };
+		C2FEC3DE17A39DD1008AD19C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEC3DD17A39DD1008AD19C /* CoreGraphics.framework */; };
+		C2FEC3E417A39DD1008AD19C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3E217A39DD1008AD19C /* InfoPlist.strings */; };
+		C2FEC3E617A39DD1008AD19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEC3E517A39DD1008AD19C /* main.m */; };
+		C2FEC3EA17A39DD1008AD19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEC3E917A39DD1008AD19C /* AppDelegate.m */; };
+		C2FEC3EC17A39DD1008AD19C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3EB17A39DD1008AD19C /* Default.png */; };
+		C2FEC3EE17A39DD1008AD19C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3ED17A39DD1008AD19C /* Default@2x.png */; };
+		C2FEC3F017A39DD1008AD19C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3EF17A39DD1008AD19C /* Default-568h@2x.png */; };
+		C2FEC3F317A39DD1008AD19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEC3F217A39DD1008AD19C /* ViewController.m */; };
+		C2FEC3F617A39DD1008AD19C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3F417A39DD1008AD19C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2FEC3D617A39DD1008AD19C /* sicotawaAppCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sicotawaAppCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FEC3D917A39DD1008AD19C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2FEC3DB17A39DD1008AD19C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2FEC3DD17A39DD1008AD19C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2FEC3E117A39DD1008AD19C /* sicotawaAppCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sicotawaAppCamera-Info.plist"; sourceTree = "<group>"; };
+		C2FEC3E317A39DD1008AD19C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2FEC3E517A39DD1008AD19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2FEC3E717A39DD1008AD19C /* sicotawaAppCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sicotawaAppCamera-Prefix.pch"; sourceTree = "<group>"; };
+		C2FEC3E817A39DD1008AD19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2FEC3E917A39DD1008AD19C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2FEC3EB17A39DD1008AD19C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C2FEC3ED17A39DD1008AD19C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C2FEC3EF17A39DD1008AD19C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2FEC3F117A39DD1008AD19C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2FEC3F217A39DD1008AD19C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2FEC3F517A39DD1008AD19C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FEC3D317A39DD1008AD19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEC3DA17A39DD1008AD19C /* UIKit.framework in Frameworks */,
+				C2FEC3DC17A39DD1008AD19C /* Foundation.framework in Frameworks */,
+				C2FEC3DE17A39DD1008AD19C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2FEC3CD17A39DD1008AD19C = {
+			isa = PBXGroup;
+			children = (
+				C2FEC3DF17A39DD1008AD19C /* sicotawaAppCamera */,
+				C2FEC3D817A39DD1008AD19C /* Frameworks */,
+				C2FEC3D717A39DD1008AD19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FEC3D717A39DD1008AD19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEC3D617A39DD1008AD19C /* sicotawaAppCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FEC3D817A39DD1008AD19C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEC3D917A39DD1008AD19C /* UIKit.framework */,
+				C2FEC3DB17A39DD1008AD19C /* Foundation.framework */,
+				C2FEC3DD17A39DD1008AD19C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FEC3DF17A39DD1008AD19C /* sicotawaAppCamera */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEC3E817A39DD1008AD19C /* AppDelegate.h */,
+				C2FEC3E917A39DD1008AD19C /* AppDelegate.m */,
+				C2FEC3F117A39DD1008AD19C /* ViewController.h */,
+				C2FEC3F217A39DD1008AD19C /* ViewController.m */,
+				C2FEC3F417A39DD1008AD19C /* ViewController.xib */,
+				C2FEC3E017A39DD1008AD19C /* Supporting Files */,
+			);
+			path = sicotawaAppCamera;
+			sourceTree = "<group>";
+		};
+		C2FEC3E017A39DD1008AD19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEC3E117A39DD1008AD19C /* sicotawaAppCamera-Info.plist */,
+				C2FEC3E217A39DD1008AD19C /* InfoPlist.strings */,
+				C2FEC3E517A39DD1008AD19C /* main.m */,
+				C2FEC3E717A39DD1008AD19C /* sicotawaAppCamera-Prefix.pch */,
+				C2FEC3EB17A39DD1008AD19C /* Default.png */,
+				C2FEC3ED17A39DD1008AD19C /* Default@2x.png */,
+				C2FEC3EF17A39DD1008AD19C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FEC3D517A39DD1008AD19C /* sicotawaAppCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FEC3F917A39DD1008AD19C /* Build configuration list for PBXNativeTarget "sicotawaAppCamera" */;
+			buildPhases = (
+				C2FEC3D217A39DD1008AD19C /* Sources */,
+				C2FEC3D317A39DD1008AD19C /* Frameworks */,
+				C2FEC3D417A39DD1008AD19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sicotawaAppCamera;
+			productName = sicotawaAppCamera;
+			productReference = C2FEC3D617A39DD1008AD19C /* sicotawaAppCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FEC3CE17A39DD1008AD19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KitamuraShogo;
+			};
+			buildConfigurationList = C2FEC3D117A39DD1008AD19C /* Build configuration list for PBXProject "sicotawaAppCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2FEC3CD17A39DD1008AD19C;
+			productRefGroup = C2FEC3D717A39DD1008AD19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FEC3D517A39DD1008AD19C /* sicotawaAppCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FEC3D417A39DD1008AD19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEC3E417A39DD1008AD19C /* InfoPlist.strings in Resources */,
+				C2FEC3EC17A39DD1008AD19C /* Default.png in Resources */,
+				C2FEC3EE17A39DD1008AD19C /* Default@2x.png in Resources */,
+				C2FEC3F017A39DD1008AD19C /* Default-568h@2x.png in Resources */,
+				C2FEC3F617A39DD1008AD19C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FEC3D217A39DD1008AD19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEC3E617A39DD1008AD19C /* main.m in Sources */,
+				C2FEC3EA17A39DD1008AD19C /* AppDelegate.m in Sources */,
+				C2FEC3F317A39DD1008AD19C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2FEC3E217A39DD1008AD19C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FEC3E317A39DD1008AD19C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2FEC3F417A39DD1008AD19C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FEC3F517A39DD1008AD19C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FEC3F717A39DD1008AD19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2FEC3F817A39DD1008AD19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FEC3FA17A39DD1008AD19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sicotawaAppCamera/sicotawaAppCamera-Prefix.pch";
+				INFOPLIST_FILE = "sicotawaAppCamera/sicotawaAppCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2FEC3FB17A39DD1008AD19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sicotawaAppCamera/sicotawaAppCamera-Prefix.pch";
+				INFOPLIST_FILE = "sicotawaAppCamera/sicotawaAppCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FEC3D117A39DD1008AD19C /* Build configuration list for PBXProject "sicotawaAppCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FEC3F717A39DD1008AD19C /* Debug */,
+				C2FEC3F817A39DD1008AD19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FEC3F917A39DD1008AD19C /* Build configuration list for PBXNativeTarget "sicotawaAppCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FEC3FA17A39DD1008AD19C /* Debug */,
+				C2FEC3FB17A39DD1008AD19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2FEC3CE17A39DD1008AD19C /* Project object */;
+}
