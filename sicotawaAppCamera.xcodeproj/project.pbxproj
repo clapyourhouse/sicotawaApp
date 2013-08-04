@@ -18,6 +18,8 @@
 		C2FEC3F017A39DD1008AD19C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3EF17A39DD1008AD19C /* Default-568h@2x.png */; };
 		C2FEC3F317A39DD1008AD19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEC3F217A39DD1008AD19C /* ViewController.m */; };
 		C2FEC3F617A39DD1008AD19C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC3F417A39DD1008AD19C /* ViewController.xib */; };
+		C2FEC48A17A60951008AD19C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEC48917A60951008AD19C /* CoreImage.framework */; };
+		C2FEC48C17A60EA4008AD19C /* 大泉洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FEC48B17A60EA4008AD19C /* 大泉洋.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		C2FEC3F117A39DD1008AD19C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2FEC3F217A39DD1008AD19C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2FEC3F517A39DD1008AD19C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C2FEC48917A60951008AD19C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C2FEC48B17A60EA4008AD19C /* 大泉洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大泉洋.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FEC48A17A60951008AD19C /* CoreImage.framework in Frameworks */,
 				C2FEC3DA17A39DD1008AD19C /* UIKit.framework in Frameworks */,
 				C2FEC3DC17A39DD1008AD19C /* Foundation.framework in Frameworks */,
 				C2FEC3DE17A39DD1008AD19C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,8 @@
 		C2FEC3CD17A39DD1008AD19C = {
 			isa = PBXGroup;
 			children = (
+				C2FEC48B17A60EA4008AD19C /* 大泉洋.jpg */,
+				C2FEC48917A60951008AD19C /* CoreImage.framework */,
 				C2FEC3DF17A39DD1008AD19C /* sicotawaAppCamera */,
 				C2FEC3D817A39DD1008AD19C /* Frameworks */,
 				C2FEC3D717A39DD1008AD19C /* Products */,
@@ -163,6 +170,7 @@
 				C2FEC3EE17A39DD1008AD19C /* Default@2x.png in Resources */,
 				C2FEC3F017A39DD1008AD19C /* Default-568h@2x.png in Resources */,
 				C2FEC3F617A39DD1008AD19C /* ViewController.xib in Resources */,
+				C2FEC48C17A60EA4008AD19C /* 大泉洋.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

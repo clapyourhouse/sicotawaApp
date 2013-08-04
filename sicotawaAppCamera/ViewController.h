@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreImage/CoreImage.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>{
+    UISlider *slider;
+    UIImageView * v;
+}
+- (IBAction)showImagePicker:(id)sender;
+- (IBAction)sliderValue:(id)sender;
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+@property (retain, nonatomic) IBOutlet UISlider *slider;
 
 @end
