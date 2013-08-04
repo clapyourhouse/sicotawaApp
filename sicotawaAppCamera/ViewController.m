@@ -37,6 +37,7 @@
         picker.sourceType = sourceType;
         picker.delegate = self;
         [self presentViewController:picker animated:YES completion:nil];
+        //マージってなにー
     }
     
 }
