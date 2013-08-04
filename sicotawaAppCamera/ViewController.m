@@ -20,7 +20,7 @@
     UIImage *im = [UIImage imageNamed:@"大泉洋.jpg"];
     v = [[UIImageView alloc]initWithImage:im];
     v.frame = CGRectMake(0, 0, 200, 200);
-
+//ははっはっはっはっは
     
 }
 
